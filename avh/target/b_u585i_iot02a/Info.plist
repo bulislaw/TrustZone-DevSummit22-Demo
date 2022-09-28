@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Type</key>
+    <string>iot</string>
+    <key>UniqueIdentifier</key>
+    <string>STM32U5-DevSummit22</string>
+    <key>DeviceIdentifier</key>
+    <string>stm32u5-b-u585i-iot02a</string>
+    <key>Version</key>
+    <string>1.0.0</string>
+    <key>Build</key>
+    <string>STM32U5-DevSummit22</string>
+</dict>
+</plist>
