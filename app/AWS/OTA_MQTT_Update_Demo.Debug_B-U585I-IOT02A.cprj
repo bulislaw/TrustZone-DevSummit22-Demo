@@ -29,7 +29,7 @@
   </compilers>
 
   <target Bname="B-U585I-IOT02A" Brevision="Rev.C" Bvendor="STMicroelectronics" Bversion="Rev.C" Ddsp="DSP" Dendian="Little-endian" Dfpu="SP_FPU" Dname="STM32U585AIIx" Dsecure="TZ-disabled" Dtz="TZ" Dvendor="STMicroelectronics:13">
-    <output intdir="tmp/OTA_MQTT_Update_Demo/B-U585I-IOT02A/Debug" name="OTA_MQTT_Update_Demo.Debug+B-U585I-IOT02A" outdir="out/OTA_MQTT_Update_Demo/B-U585I-IOT02A/Debug" rtedir="RTE" type="exe"/>
+    <output intdir="tmp/OTA_MQTT_Update_Demo/B-U585I-IOT02A/Debug" name="OTA_MQTT_Update_Demo.Debug_B-U585I-IOT02A" outdir="out/OTA_MQTT_Update_Demo/B-U585I-IOT02A/Debug" rtedir="RTE" type="exe"/>
     <asflags add="-masm=auto" compiler="AC6"/>
     <cflags add="-std=gnu11" compiler="AC6"/>
     <ldflags add="--entry=Reset_Handler" compiler="AC6" file="RTE/Device/STM32U585AIIx/stm32u585xx_flash.sct"/>
