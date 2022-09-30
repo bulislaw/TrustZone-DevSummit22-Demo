@@ -11,8 +11,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: Checkout Arm-Debug/solar-build-and-run
+        uses: actions/checkout@v2
+        with:
+          repository: Arm-Debug/solar-build-and-run
+          ref: refs/tags/v1.3.0
+          token: ${{ secrets.GIT_SECRET }}
+          persist-credentials: false
+          path: ./.github/actions/solar-build-and-run
       - name: build
-        uses: bulislaw/solar-build-and-run@v1.3.0
+        uses: ./.github/actions/solar-build-and-run
         with:
           repo: https://github.com/Arm-Labs/TrustZone-DevSummit22-Demo
           auth: ${{ secrets.KSC_ACCESS_TOKEN }}
