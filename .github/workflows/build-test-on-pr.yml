@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build
-        uses: Arm-Debug/solar-build-and-run@v1.3.0
+        uses: bulislaw/solar-build-and-run@v1.3.0
         with:
           repo: https://github.com/Arm-Labs/TrustZone-DevSummit22-Demo
           auth: ${{ secrets.KSC_ACCESS_TOKEN }}
